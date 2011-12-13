@@ -55,11 +55,11 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <scm>
-        <connection>scm:svn:http://onejar-maven-plugin.googlecode.com/svn/tags/onejar-maven-plugin-1.4.4</connection>
-        <developerConnection>scm:svn:https://onejar-maven-plugin.googlecode.com/svn/tags/onejar-maven-plugin-1.4.4</developerConnection>
-        <url>http://code.google.com/p/onejar-maven-plugin/source/browse/tags/onejar-maven-plugin-1.4.4</url>
-    </scm>
+  <scm>
+    <connection>scm:git:git@github.com:jolira/onejar-maven-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:jolira/onejar-maven-plugin.git</developerConnection>
+    <url>http://github.com/jolira/onejar-maven-plugin</url>
+  </scm>
 
     <build>
         <plugins>
