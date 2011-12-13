@@ -7,7 +7,7 @@
     </parent>
     <artifactId>onejar-maven-plugin</artifactId>
     <packaging>maven-plugin</packaging>
-    <version>1.4.5-SNAPSHOT</version>
+    <version>1.4.4-SNAPSHOT</version>
     <name>One-Jar Maven Plugin</name>
     <url>http://onejar-maven-plugin.googlecode.com/</url>
     <inceptionYear>2007</inceptionYear>
@@ -148,28 +148,4 @@
             </plugin>
         </plugins>
     </reporting>
-
-    <distributionManagement>
-        <repository>
-            <id>onejar-maven-plugin.googlecode.com</id>
-            <name>onejar-maven-plugin Google Code Repository</name>
-            <!-- deploy from a release tag directory -->
-            <url>file://${basedir}/../../../mavenrepo</url>
-        </repository>
-        <snapshotRepository>
-            <id>onejar-maven-plugin.googlecode.com</id>
-            <name>onejar-maven-plugin Google Code SNAPSHOT Repository</name>
-            <!-- deploy from trunk -->
-            <url>file://${basedir}/../mavenrepo-snapshot</url>
-        </snapshotRepository>
-        <site>
-            <id>onejar-maven-plugin.googlecode.com</id>
-
-			<!-- deploy from trunk -->
-            <url>file://${basedir}/../mavensite/</url>
-
-			<!-- deploy from a release tag directory -->
-            <!-- <url>file://${basedir}/../../mavensite/</url> -->
-        </site>
-    </distributionManagement>
 </project>
